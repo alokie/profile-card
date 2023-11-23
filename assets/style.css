@@ -4,7 +4,7 @@
 
 body {
     height: 100vh;
-    background-color: #F3F9D2;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,9 @@ body {
     height: 400px;
     width: 700px;
     background-color: #857885;
-    border-radius: 45px;
+    border:  10px solid #E5ECE9;
+    border-radius: 100px 20px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     
@@ -76,3 +78,44 @@ body {
     
 }
 
+.contacts a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 620px) {
+    .profile-card {
+        width: 301px;
+        height: 562px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img img{
+        margin-top: 29px;
+    }
+
+    .intro-box {
+        width: 200px;
+        height: 211px;
+    }
+
+    .intro-box h1 {
+        font-size: 30px;
+    }
+
+    .intro-box h3{
+        font-size: 20px;
+    }
+
+    .intro-box p{
+        font-size: 10px;
+    }
+
+    .contacts {
+        width: 261px;
+        height: 54px;
+        margin: 20px;
+    }
+}
