@@ -85,8 +85,8 @@ body {
 
 @media (max-width: 620px) {
     .profile-card {
-        width: 301px;
-        height: 562px;
+        width: 250px;
+        height: 530px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
